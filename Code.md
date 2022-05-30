@@ -47,4 +47,5 @@ plt.show()
 out:
 
 ```
+![Figure_1](https://user-images.githubusercontent.com/59614094/171039558-55f0bb74-7a2d-4cc8-8456-04b4290c1bb4.png)
 
