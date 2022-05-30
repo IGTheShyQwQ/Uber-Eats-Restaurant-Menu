@@ -31,7 +31,20 @@ print("paid_food:", paid_food)
 
 out:
 
-
 ```
 
 ![image-20220530133110692](https://user-images.githubusercontent.com/59614094/171039269-fba47a30-5ec5-4724-8b90-2cb5183bc9a9.png)
+
+
+
+``` python
+in:
+plt.figure(figsize=(16,10))
+ax = restaurants_menu['name'].value_counts().iloc[:10].plot(kind="barh", color = 'purple')
+ax.invert_yaxis()
+ax.title.set_text('Top 10 food menu')
+plt.show()
+out:
+
+```
+
