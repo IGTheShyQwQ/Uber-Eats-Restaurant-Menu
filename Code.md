@@ -73,6 +73,7 @@ plt.title('Best Menu', position=(0.5, 1.0+0.03), fontsize = 12, fontweight='bold
 plt.axis('off')
 plt.show()
 
-out
+out:
 ```
+![Figure_2](https://user-images.githubusercontent.com/59614094/171041189-84c1b1de-ac00-4778-8ee4-748f8a725a63.png)
 
