@@ -58,3 +58,21 @@ print(best_menu)
 out:
 ```
 ![prep image](https://user-images.githubusercontent.com/59614094/171040602-a0329391-85dd-42d5-b632-25c4cc48af49.png)
+
+
+
+``` python
+in:
+from matplotlib import gridspec
+import squarify
+
+y = best_menu
+fig = plt.figure(figsize=(15,15))
+squarify.plot(sizes = y.id, label = y.index, color=sns.color_palette("RdYlGn", n_colors=20), linewidth=4, text_kwargs={'fontsize':14, 'fontweight' : 'bold'})
+plt.title('Best Menu', position=(0.5, 1.0+0.03), fontsize = 12, fontweight='bold')
+plt.axis('off')
+plt.show()
+
+out
+```
+
