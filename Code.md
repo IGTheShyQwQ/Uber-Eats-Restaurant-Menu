@@ -56,6 +56,5 @@ best_menu = restaurant_merge.groupby('name_y').count().sort_values(by = 'id', as
 print(best_menu)
 
 out:
-```![prep image](https://user-images.githubusercontent.com/59614094/171040558-129f23d8-1d13-4d02-8640-86cec22c0459.png)
-
-
+```
+![prep image](https://user-images.githubusercontent.com/59614094/171040602-a0329391-85dd-42d5-b632-25c4cc48af49.png)
