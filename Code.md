@@ -49,3 +49,12 @@ out:
 ```
 ![Figure_1](https://user-images.githubusercontent.com/59614094/171039558-55f0bb74-7a2d-4cc8-8456-04b4290c1bb4.png)
 
+``` python
+in:
+restaurant_merge = pd.merge(restaurant, restaurants_menu, left_on=('id'), right_on=('restaurant_id'))
+best_menu = restaurant_merge.groupby('name_y').count().sort_values(by = 'id', ascending = False).head(20)
+print(best_menu)
+
+out:
+```
+
