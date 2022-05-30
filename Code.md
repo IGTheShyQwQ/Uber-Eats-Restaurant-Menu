@@ -57,4 +57,5 @@ print(best_menu)
 
 out:
 ```
+![屏幕截图 2022-05-30 134128](https://user-images.githubusercontent.com/59614094/171039906-e71eaa2e-8453-497a-9b5a-68f88c2122f9.png)
 
