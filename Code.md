@@ -75,5 +75,5 @@ plt.show()
 
 out:
 ```
-![Figure_2](https://user-images.githubusercontent.com/59614094/171041189-84c1b1de-ac00-4778-8ee4-748f8a725a63.png)
+![Figure_2](./../../../Desktop/Data_Analysis/Figures/5%20best%20Menu)
 

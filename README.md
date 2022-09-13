@@ -43,3 +43,14 @@
 
 *Graph shows the top 10 best sellers of all restaurants*
 ![top 10 menu](https://user-images.githubusercontent.com/59614094/190021664-b2f9550b-901e-4f66-b80f-e608a1c21ad7.png)
+
+- we firstly retrieve the column name of the menu out of the whole data.
+- count the value of the names from the most to least and show the first 10.
+- invert the y axis of the graph and set the title to "Top 10 name menu"
+- Reference:
+  - [matplotlib.pyplot.imshow](https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html)
+
+
+
+### Best Menu
+
