@@ -75,5 +75,3 @@ plt.show()
 
 out:
 ```
-![Figure_2](./../../../Desktop/Data_Analysis/Figures/5%20best%20Menu)
-
