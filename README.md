@@ -28,6 +28,7 @@
 #### Menu Name - wordCloud ####
 
 *Graph shows the frequency of the items ordered the most to the least.*
+![3 Menu name](https://user-images.githubusercontent.com/59614094/189794293-2d397ea8-e130-4c09-a4ae-ff0788ac8ecf.png)
 
 - we firstly retrieve the column name of the menu out of the whole data.
 - Secondly convert the data to dictionary using value counts feature then generate the wordcloud.
