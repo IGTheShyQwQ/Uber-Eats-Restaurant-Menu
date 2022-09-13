@@ -7,7 +7,17 @@
 
 # Table of Contents: #
 
-### Preparation: ###  
+### 1. [Preparation](## Preparation)
+
+
+
+
+
+
+
+
+
+### Preparation 
 
 - csv file read: using read.csv ('file name')
   - you may use relative path to read the csv file
