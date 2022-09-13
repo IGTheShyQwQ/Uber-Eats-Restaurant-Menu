@@ -75,3 +75,4 @@ plt.show()
 
 out:
 ```
+![5 best menu](https://user-images.githubusercontent.com/59614094/190022711-cf5ea7fc-1341-4299-9962-7bfdf8f73092.png)
