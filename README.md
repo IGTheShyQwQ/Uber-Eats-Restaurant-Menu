@@ -25,3 +25,14 @@
 
 ### Graphs creation ###
 
+#### Menu Name - wordCloud ####
+
+*Graph shows the frequency of the items ordered the most to the least.*
+
+- we firstly retrieve the column name of the menu out of the whole data.
+- Secondly convert the data to dictionary using value counts feature then generate the wordcloud.
+- thirdly filled up the width, height, background_color....etc., but be careful with how to generate the data, we show data according its number of occurrence.
+- Reference:
+  - [Usage of wordcloud](https://blog.csdn.net/u010309756/article/details/67637930)
+  - [Pandas value.counts()](https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html)
+  - [matplotlib.pyplot.imshow](https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html)
