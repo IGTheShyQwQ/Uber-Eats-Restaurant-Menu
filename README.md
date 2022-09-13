@@ -42,4 +42,4 @@
 #### Top 10 Menu - Bar Graph
 
 *Graph shows the top 10 best sellers of all restaurants*
-
+![top 10 menu](https://user-images.githubusercontent.com/59614094/190021664-b2f9550b-901e-4f66-b80f-e608a1c21ad7.png)
