@@ -2,22 +2,11 @@
 
 ![ubereats](https://user-images.githubusercontent.com/59614094/189784478-b5a2a759-04ba-4e99-b341-7e153f067dd4.jpg)
 
-
 *This is a data project analyzed dataset that contains lists of restaurant and their menus in USA that are partnered with UBER EATS.*
 
-# Table of Contents: #
-
-### 1. [Preparation](## Preparation)
 
 
-
-
-
-
-
-
-
-### Preparation 
+### Preparation:
 
 - csv file read: using read.csv ('file name')
   - you may use relative path to read the csv file
@@ -47,3 +36,10 @@
   - [Usage of wordcloud](https://blog.csdn.net/u010309756/article/details/67637930)
   - [Pandas value.counts()](https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html)
   - [matplotlib.pyplot.imshow](https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html)
+
+
+
+#### Top 10 Menu - Bar Graph
+
+*Graph shows the top 10 best sellers of all restaurants*
+
