@@ -89,6 +89,7 @@
 
 *This graph shows the heatmap of all restaurants*
 
+![8 Heat map](https://user-images.githubusercontent.com/59614094/190212750-0ca6d0a7-a3b9-4ef6-b3d9-bc211125b31b.png)
 
 
 - We first sort the restaurants using the sort value to filter the restaurants from the most popular to least popular.
