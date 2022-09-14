@@ -104,4 +104,5 @@ fig.show()
 
 out:
 ```
+![7 pie Chart](https://user-images.githubusercontent.com/59614094/190209045-e27213b3-8e02-430f-99d4-ca467dbdd4c5.png)
 
