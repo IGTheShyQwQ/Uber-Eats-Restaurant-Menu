@@ -70,10 +70,22 @@
   - [Matplot - Gridspec](https://matplotlib.org/stable/api/_as_gen/matplotlib.gridspec.GridSpec.html)
   - [Squarify plot](https://www.analyticsvidhya.com/blog/2021/06/build-treemaps-in-python-using-squarify/)
 
+
+
 ### Restaurant Price Types - Pie Charts
 
 *Graph shows the difference expense level of all the restaurants*
 
 ![7 pie Chart](https://user-images.githubusercontent.com/59614094/190208908-c69955fd-accc-4f3d-9ab9-eea201eb5e44.png)
 
+- Since the dataset contains the column shows the types of the restaurants
+- We simply just enumerate the data and get them together.
+- Reference:
+  - [Pandas.sort](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html)
+
+
+
+### Heatmap Restaurants in USA
+
+*This graph shows the heatmap of all restaurants*
 
