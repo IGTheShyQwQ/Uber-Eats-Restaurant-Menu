@@ -74,5 +74,6 @@
 
 *Graph shows the difference expense level of all the restaurants*
 
+![7 pie Chart](https://user-images.githubusercontent.com/59614094/190208908-c69955fd-accc-4f3d-9ab9-eea201eb5e44.png)
 
 
