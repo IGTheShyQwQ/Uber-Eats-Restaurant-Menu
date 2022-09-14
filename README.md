@@ -72,5 +72,7 @@
 
 ### Restaurant Price Types - Pie Charts
 
+*Graph shows the difference expense level of all the restaurants*
+
 
 

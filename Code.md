@@ -76,3 +76,32 @@ plt.show()
 out:
 ```
 ![5 best menu](https://user-images.githubusercontent.com/59614094/190022711-cf5ea7fc-1341-4299-9962-7bfdf8f73092.png)
+
+
+
+
+
+``` python
+in:
+fig = px.pie(restaurant, names='price_range',title='Price levels in Menus', template = 'plotly_dark')
+fig.update_traces(textposition='inside')
+fig.update_layout(uniformtext_minsize=14, uniformtext_mode='hide',showlegend=True)
+
+def newLegend(fig, newNames):
+    for item in newNames:
+        for i, elem in enumerate(fig.data[0].labels):
+            if elem == item:
+                fig.data[0].labels[i] = newNames[item]
+    return(fig)
+
+fig = newLegend(fig = fig, newNames = {'$':'Inexpensive',
+                                       '$$' : 'so so',
+                                      '$$$' : 'Expensive',
+                                      '$$$$' : 'luxury'})
+
+
+fig.show()
+
+out:
+```
+
