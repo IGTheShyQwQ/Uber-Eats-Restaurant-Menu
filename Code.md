@@ -132,4 +132,5 @@ map_offenses.add_child(plugins.HeatMap(places, radius=18))
 
 out:
 ```
+![8 Heat map](https://user-images.githubusercontent.com/59614094/190212808-74b90aa6-2b71-40d5-8849-736150d093ec.png)
 
