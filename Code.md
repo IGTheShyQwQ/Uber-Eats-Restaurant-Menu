@@ -106,3 +106,30 @@ out:
 ```
 ![7 pie Chart](https://user-images.githubusercontent.com/59614094/190209045-e27213b3-8e02-430f-99d4-ca467dbdd4c5.png)
 
+
+
+
+
+``` python
+in:
+popular_restaurant = restaurant.sort_values(['score','ratings'], ascending=False)
+popular_restaurant.head()
+
+
+df_new = popular_restaurant.dropna()
+df_new = df_new[(df_new.lat.notnull())]
+df_new = df_new[(df_new.lat != -1) & (df_new.lng != -1)]
+df_new = df_new[~df_new.lat.isna()]
+
+
+places = []
+
+map_offenses = folium.Map(location=[37.09024,-95.712891], zoom_start=4.3)
+for i, loc in df_new.iterrows():
+    places.append((loc['lat'], loc['lng']))
+
+map_offenses.add_child(plugins.HeatMap(places, radius=18))
+
+out:
+```
+

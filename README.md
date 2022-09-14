@@ -89,3 +89,9 @@
 
 *This graph shows the heatmap of all restaurants*
 
+
+
+- We first sort the restaurants using the sort value to filter the restaurants from the most popular to least popular.
+- Next we gonna drop NA values from the restaurants dataset, also including the latitude not null
+- The second step needs us to manually take a look at the data.
+- We iteratively append the spots into our places and put it into the map.
