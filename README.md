@@ -42,6 +42,7 @@
 #### Top 10 Menu - Bar Graph
 
 *Graph shows the top 10 best sellers of all restaurants*
+
 ![top 10 menu](https://user-images.githubusercontent.com/59614094/190021664-b2f9550b-901e-4f66-b80f-e608a1c21ad7.png)
 
 - we firstly retrieve the column name of the menu out of the whole data.
@@ -52,5 +53,24 @@
 
 
 
-### Best Menu
+### Best Menu -  Squarify plot
+
+*Graph shows the top 20 best food among all restaurant*
+
+
+
 ![5 best menu](https://user-images.githubusercontent.com/59614094/190022667-78332cdd-a3df-4260-8913-b0982decd8c1.png)
+
+
+
+- we first merge the restaurants and restaurants_menu together.
+- After the merge we group the items by column "name_y".
+- plot the graph.
+- Reference:
+  - [Matplot - Gridspec](https://matplotlib.org/stable/api/_as_gen/matplotlib.gridspec.GridSpec.html)
+  - [Squarify plot](https://www.analyticsvidhya.com/blog/2021/06/build-treemaps-in-python-using-squarify/)
+
+### Restaurant Price Types - Pie Charts
+
+
+
